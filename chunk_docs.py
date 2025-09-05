@@ -13,7 +13,7 @@ def chunk(text, size=300):
     return [text[i:i+size] for i in range(0, len(text), size)]
 
 if __name__ == "__main__":
-    docs_dir = "../data"
+    docs_dir = "./data"
     all_chunks = []
     for filename in os.listdir(docs_dir):
         if filename.endswith(".pdf"):
