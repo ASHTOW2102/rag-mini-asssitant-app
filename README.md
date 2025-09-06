@@ -16,10 +16,10 @@ A **Retrieval-Augmented Generation (RAG) Mini Assistant** built with **Gradio, F
 
 ## 📂 Project Structure
 
-├── main.py # Main application code
-├── chunks_proc.txt # Preprocessed text chunks
-├── embeddings.npy # Stored embeddings for chunks
-├── faiss_index.bin # FAISS vector index
+├── data/ # Folder containing raw documents
+├── chunk_doc.py # Script to split documents into chunks
+├── embedding.py # Script to create embeddings + FAISS index
+├── main.py # RAG assistant app with Gradio UI
 ├── requirements.txt # Dependencies
 └── README.md # Documentation
 
