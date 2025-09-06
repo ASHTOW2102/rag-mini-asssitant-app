@@ -18,12 +18,13 @@ A **Retrieval-Augmented Generation (RAG) Mini Assistant** built with **Gradio, F
 
 ```
 
-├── data/                 # Folder containing raw documents
-├── chunk\_doc.py          # Script to split documents into chunks
-├── embedding.py          # Script to create embeddings + FAISS index
-├── main.py               # RAG assistant app with Gradio UI
-├── requirements.txt      # Dependencies
-└── README.md             # Documentation
+├── data/ # Folder containing raw documents
+├── chunk_doc.py # Script to split documents into chunks
+├── embedding.py # Script to create embeddings + FAISS index
+├── faiss_store.py # Script to save/load FAISS index
+├── main.py # RAG assistant app with Gradio UI
+├── requirements.txt # Dependencies
+└── README.md # Documentation
 
 ```
 
