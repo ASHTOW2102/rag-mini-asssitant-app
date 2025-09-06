@@ -4,6 +4,14 @@ A **Retrieval-Augmented Generation (RAG) Mini Assistant** built with **Gradio, F
 
 ---
 
+## 🚀 Live Demo
+
+👉 [Hugging Face Space](https://huggingface.co/spaces/AshishChaturvedi7/rag-mini-assistant-app)
+
+👉 [GitHub Repo](https://github.com/ASHTOW2102/rag-mini-asssitant-app)
+
+---
+
 ## 🚀 Features
 
 - Uses **Sentence Transformers** (`all-MiniLM-L6-v2`) to encode queries.
