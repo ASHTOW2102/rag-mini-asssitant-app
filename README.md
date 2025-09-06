@@ -16,7 +16,6 @@ A **Retrieval-Augmented Generation (RAG) Mini Assistant** built with **Gradio, F
 
 ## 📂 Project Structure
 
-```markdown
 ```
 
 ├── data/                 # Folder containing raw documents
@@ -27,10 +26,6 @@ A **Retrieval-Augmented Generation (RAG) Mini Assistant** built with **Gradio, F
 └── README.md             # Documentation
 
 ```
-```
-
-
----
 
 ## ⚙️ Installation
 
