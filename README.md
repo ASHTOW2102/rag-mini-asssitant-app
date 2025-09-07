@@ -10,6 +10,12 @@ A **Retrieval-Augmented Generation (RAG) Mini Assistant** built with **Gradio, F
 
 ---
 
+## 🚀 Live Demo
+
+👉 [Hugging Face Space](https://huggingface.co/spaces/AshishChaturvedi7/rag-mini-assistant-app)
+
+---
+
 ## 🚀 Features
 
 - Uses **Sentence Transformers** (`all-MiniLM-L6-v2`) to encode queries.
@@ -22,14 +28,17 @@ A **Retrieval-Augmented Generation (RAG) Mini Assistant** built with **Gradio, F
 
 ## 📂 Project Structure
 
-├── main.py # Main application code
-├── chunks_proc.txt # Preprocessed text chunks
-├── embeddings.npy # Stored embeddings for chunks
-├── faiss_index.bin # FAISS vector index
+```
+
+├── data/ # Folder containing raw documents
+├── chunk_doc.py # Script to split documents into chunks
+├── embedding.py # Script to create embeddings + FAISS index
+├── faiss_store.py # Script to save/load FAISS index
+├── main.py # RAG assistant app with Gradio UI
 ├── requirements.txt # Dependencies
 └── README.md # Documentation
 
----
+```
 
 ## ⚙️ Installation
 
