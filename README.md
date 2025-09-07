@@ -1,3 +1,9 @@
+---
+title: rag-mini-assistant-app
+app_file: main.py
+sdk: gradio
+sdk_version: 5.41.1
+---
 # 🤖 RAG Mini Assistant
 
 A **Retrieval-Augmented Generation (RAG) Mini Assistant** built with **Gradio, FAISS, and OpenAI GPT**, designed to answer questions using pre-processed context stored in embeddings.
